@@ -15,7 +15,7 @@ export default function Header() {
         marginBottom: "1rem",
     }}
     >
-        <h2>🎯 Trivia</h2>
+        <h2>Juego Trivia</h2>
         <p>Puntaje: {puntaje}</p>
         <p>Preguntas respondidas: {preguntasRespondidas}</p>
     </header>
