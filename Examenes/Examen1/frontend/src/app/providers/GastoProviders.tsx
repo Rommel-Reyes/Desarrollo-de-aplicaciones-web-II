@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import {Plantilla} from '../models/Plantilla'
 import {Gasto} from '../models/Gasto'
 import {GastoContext} from '../context/Gastocontext'
-
+// contesto de los gastos y el proveedor:
 export default function GastoProvider(props: Plantilla) {
     const [gastos, setGastos] = useState<Gasto[]>([])
     const [presupuesto, setPresupuesto] = useState<number>(0)
